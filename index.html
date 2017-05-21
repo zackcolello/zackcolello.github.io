@@ -1,0 +1,167 @@
+<!-- Main page for portfolio site. -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zachary Colello's Portfolio</title>
+
+    <link rel="shortcut icon" type="image/png" href="static/resources/images/favicon.ico"/>
+
+    <!-- Foundation -->
+    <link rel="stylesheet" type="text/css" href="static/foundation/foundation-6/css/foundation.min.css"/>
+    <link rel="stylesheet" href="static/foundation/css/foundation-icons.css"/>
+
+    <!-- Local stylesheet -->
+    <link href="static/style.scss" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300|Quicksand|Lustria|Raleway' rel='stylesheet'
+          type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- smooth-scroll.js -->
+    <script src="static/resources/js/smooth-scroll.js"></script>
+
+    <!-- scroll-reveal.js -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <script src="static/foundation/js/modernizr.js"></script>
+    <script src="static/foundation/js/jquery.js"></script>
+    <script src="static/foundation/js/fastclick.js"></script>
+    <script src="static/foundation/foundation-6/js/vendor/foundation.min.js"></script>
+
+    <!-- local js -->
+    <script src="static/resources/js/portfolio.js"></script>
+
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="block parallax main-block">
+
+        <div class="header-icon-container">
+            <div class="header-icon-linked-in fade-icon">
+                <a href="https://www.linkedin.com/in/zachary-colello-bb860088/">
+                    <i class="header-icon fi-social-linkedin"></i>
+                </a>
+            </div>
+            <div class="header-icon-github fade-icon">
+                <a href="https://github.com/zackcolello">
+                    <i class="header-icon fi-social-github"></i>
+                </a>
+            </div>
+            <div class="header-icon-mail fade-icon">
+                <a href="mailto:zachary.colello@gmail.com" target="_top">
+                    <i class="header-icon main-title-bookmark fi-mail"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="main-content" id="main-content">
+            <div class="fade main-content-text">
+                <a class="main-title-link" href=""><p class="fade main-title">Zachary <span class="tide">J.</span>
+                    Colello</p></a>
+
+                <p class="sub-main-title">Full stack software engineer from the New York metropolitan area. Currently
+                    working with
+                    <span id="wayfair">
+                        <a class="wayfair-link" href="https://www.wayfair.com">
+                            <span class="wayfair-1">W</span><span class="wayfair-2">a</span><span
+                                class="wayfair-3">y</span><span
+                                class="wayfair-4">f</span><span class="wayfair-1">a</span><span
+                                class="wayfair-2">i</span><span class="wayfair-3">r</span></a> in Boston, MA.<span
+                            class="cursor">_</span>
+                    </span>
+                </p>
+            </div>
+
+            <div id="header-link-container" class="header-link-container">
+                <div class="header-link-inner-container">
+                    <a class="header-link slide-text" href="#about-block" data-scroll>About</a>
+                    <a class="header-link slide-text" href="https://github.com/zackcolello">Github</a>
+                    <a class="header-link slide-text" href="static/resources/zjcResume.pdf" target="_blank">Resume</a>
+                    <a class="header-link slide-text" href="#connect-block" data-scroll>Connect</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="down-arrow-container">
+            <a class="down-arrow" href="#about-block" data-scroll><i id="down-arrow-icon"
+                                                                     class="fa fa-chevron-circle-down"></i></a>
+        </div>
+    </div>
+
+    <div class="block about-block" id="about-block">
+        <p class="section-title section-title-about-me">About Me</p>
+
+        <div class="about-block-content">
+            <div class="main-content-headshot">
+                <img class="headshot fade-image" src="static/resources/images/portfolio.jpg">
+            </div>
+
+            <p class="about-text fade-about-text-1">I received my degree in Computer Science from Rutgers University in
+                May of
+                2016.</p>
+
+            <p class="about-text fade-about-text-2">Since then, I've joined the Marketing Engineering team at <a
+                    class="fade-about-wayfair-text bio-link bio-link-wayfair"
+                    href="https://www.wayfair.com">Wayfair</a>, where I've contributed to building
+                our internal site-wide tracking system that is used as the primary source for analytical data and
+                notification
+                functionality.</p>
+
+            <p class="about-text fade-about-text-3">Prior to my experience with Wayfair, I worked with the software
+                development
+                team at
+                <a class="bio-link bio-link-rits" href="https://its.rutgers.edu/">Rutgers Information Technology
+                    Services</a> to create various administration tools and webforms.
+                I also wrote software for <a class="fade-about-rwjf-text bio-link bio-link-rwjf"
+                                             href="http://www.rwjf.org/">The Robert Wood Johnson Foundation</a>
+                that allows employees to manage grant application documents.</p>
+
+        </div>
+    </div>
+
+    <div class="block parallax connect-block" ID="connect-block" data-scroll>
+        <p class="section-title">Connect</p>
+
+        <div class="connect-section-container">
+            <p>Please feel free to reach out via email at</p>
+
+            <p><span class="fade-email-text email-address"><a
+                    href="mailto:zachary.colello@gmail.com" class="email-address-link" target="_top">zachary <span
+                    class="email-accent">[dot]</span> colello <span class="email-accent">[at]</span> gmail <span
+                    class="email-accent">[dot]</span> com</a>
+            </span></p>
+
+            <p>or any platform below:</p>
+
+            <div class="connect-section-icon-container">
+                <div class="connect-section linked-in-section fade-icon">
+                    <a href="https://www.linkedin.com/in/zachary-colello-bb860088/">
+                        <i class="connect-icon fi-social-linkedin"></i>
+                    </a>
+                </div>
+                <div class="connect-section github-section fade-icon">
+                    <a href="https://github.com/zackcolello">
+                        <i class="connect-icon fi-social-github"></i>
+                    </a>
+                </div>
+                <div class="connect-section email-section fade-icon">
+                    <a class="email-link" href="mailto:zachary.colello@gmail.com" target="_top">
+                        <i class="connect-icon main-title-bookmark fi-mail"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="footer-text">Zachary Colello, 2017</p>
+        </div>
+    </div>
+</body>

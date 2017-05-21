@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  color: white;
+  margin: 0; }
+
+.logo {
+  width: 60px;
+  padding-left: 20px; }
+
+.header-icon-container {
+  width: 100%;
+  overflow: auto;
+  margin-top: 15px; }
+
+.header-icon {
+  font-size: 25px;
+  color: white;
+  margin-right: 30px;
+  float: right;
+  opacity: 0.85;
+  filter: alpha(opacity=5);
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.header-icon:hover {
+  color: #b9ebff; }
+
+/* top nav */
+.header-link-container {
+  text-align: center;
+  clear: both;
+  height: 100%; }
+
+.header-link-inner-container {
+  width: 100%; }
+
+.header-link {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.header-link:hover {
+  color: white; }
+
+.is-stuck {
+  margin-top: 0; }
+
+.slide-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0; }
+
+.slide-text:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 0;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease; }
+
+.slide-text:hover:after {
+  width: 100%;
+  background: deepskyblue; }
+
+/* end top nav */
+.tide {
+  color: deepskyblue; }
+
+.main-title {
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 30px;
+  padding-top: 30px; }
+
+.main-content-text {
+  /*margin-left: 300px;
+  margin-right: 60px;*/
+  width: 48%;
+  height: 40%;
+  margin-right: 100px;
+  margin-top: 190px;
+  background-color: black;
+  border-bottom: 3px solid deepskyblue;
+  opacity: 0.90;
+  filter: alpha(opacity=90);
+  float: right;
+  clear: both; }
+
+.main-content-headshot {
+  width: 28%;
+  height: 40%;
+  margin-top: 100px;
+  margin-left: 140px;
+  float: left;
+  border-radius: 100px; }
+
+.sub-main-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+  padding-left: 60px;
+  padding-right: 60px; }
+
+.wayfair {
+  /* First we need to help some browsers along for this to work.
+   Just because a vendor prefix is there, doesn't mean it will
+   work in a browser made by that vendor either, it's just for
+   future-proofing purposes I guess. */
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  /* ...and now for the proper property */
+  transition: .5s; }
+
+.wayfair-1 {
+  -webkit-transition: color 1s;
+  /* For Safari 3.0 to 6.0 */
+  transition: color 1s;
+  /* For modern browsers */ }
+
+.wayfair-1-color {
+  color: #CF81EB; }
+
+.wayfair-2 {
+  -webkit-transition: color 1s;
+  /* For Safari 3.0 to 6.0 */
+  transition: color 1s;
+  /* For modern browsers */ }
+
+.wayfair-2-color {
+  color: #FCCD17; }
+
+.wayfair-3 {
+  -webkit-transition: color 1s;
+  /* For Safari 3.0 to 6.0 */
+  transition: color 1s;
+  /* For modern browsers */ }
+
+.wayfair-3-color {
+  color: #C4D63E; }
+
+.wayfair-4 {
+  -webkit-transition: color 1s;
+  /* For Safari 3.0 to 6.0 */
+  transition: color 1s;
+  /* For modern browsers */ }
+
+.wayfair-4-color {
+  color: #80D365; }
+
+.sign-up-button {
+  font-family: 'Lobster', cursive;
+  margin-top: 20px; }
+
+.block {
+  text-align: center;
+  height: 550px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 70px; }
+
+.main-block {
+  background: url("resources/images/backgrounds/milkyway.png") 0 0;
+  /* This was for the dynamic mouseover stuff background-size: calc(100% + 50px); */
+  background-position: 50% 0;
+  overflow: auto; }
+
+.hidden {
+  visibility: hidden; }
+
+.section-title {
+  font-family: 'Lustria', serif;
+  font-size: 30px; }
+
+.section-title-about-me {
+  color: #F0F0D9; }
+
+.paragraph-text {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px; }
+
+.about-block {
+  height: 400px;
+  background-color: #181818; }
+
+.connect-block {
+  height: 500px;
+  overflow: hidden;
+  /*background: linear-gradient(#f9f9f9, #b3e8fc);*/
+  /*background: url('resources/images/backgrounds/footer_lodyas.png') 0 0;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  /*background: url('resources/images/backgrounds/milkyway180.png') 0 0;*/
+  background: #1C1C34; }
+
+.experience-block {
+  background: url("resources/images/backgrounds/milkyway180.png") 0 0;
+  height: 20px; }
+
+.genre-option {
+  background: #20303a;
+  padding-left: -20px;
+  padding-right: -20px;
+  padding-bottom: 1px;
+  padding-top: 5px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px; }
+
+.connect-section-container {
+  height: 200px; }
+
+.connect-section-icon-container {
+  width: 363px;
+  overflow: auto;
+  margin-left: 450px; }
+
+.connect-section {
+  float: left; }
+
+.linked-in-section {
+  padding: 30px; }
+
+.github-section {
+  padding: 30px; }
+
+.email-section {
+  padding: 30px; }
+
+.connect-icon {
+  color: white;
+  font-size: 50px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.connect-icon:hover {
+  color: deepskyblue; }
+
+.email-address {
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.email-accent {
+  color: #3E589C;
+  font-size: 17px; }
+
+a {
+  font-size: 20px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #b5dbf6; }
+
+a:hover {
+  color: #e1e6ff; }
+
+.up-arrow-icon {
+  float: right;
+  font-size: 20px; }
+
+.footer {
+  position: fixed;
+  width: 10%;
+  margin-left: 90%;
+  margin-bottom: 20px;
+  bottom: 0;
+  border: solid gold; }
+
+/*# sourceMappingURL=style.css.map */
