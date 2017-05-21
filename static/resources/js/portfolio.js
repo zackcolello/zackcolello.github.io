@@ -77,7 +77,7 @@ $(document).ready(function () {
         if (window.innerWidth <= 880) {
             $(".main-content-headshot").css("height", "167px");
         } else {
-            $(".main-content-headshot").css("height", "320px");
+            $(".main-content-headshot").css("height", "500px");
         }
     }
 
