@@ -89,6 +89,7 @@ $(document).ready(function () {
     sr.reveal('.fade-about-text-1', {reset: true}, 50);
     sr.reveal('.fade-about-text-2', {reset: true}, 50);
     sr.reveal('.fade-about-text-3', {reset: true}, 50);
+    sr.reveal('.fade-about-text-4', {reset: true}, 50);
     sr.reveal('.fade-email-text', {reset: true, duration: 1000});
     sr.reveal('.fade-image', {reset: true, duration: 1000});
     sr.reveal('.fade-icon', {reset: true}, 50);
