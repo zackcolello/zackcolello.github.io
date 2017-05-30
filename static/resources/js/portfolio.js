@@ -4,6 +4,24 @@ $(document).ready(function () {
 
     jQuery(document).foundation();
 
+    // Resize elements of page to better fit smaller screens
+
+    window.addEventListener("resize", resize);
+    window.addEventListener("load", resize);
+
+    function resize() {
+        if (window.innerWidth <= 541) {
+            $(".sub-main-title").hide();
+        } else {
+            $(".sub-main-title").show();
+        }
+        if (window.innerWidth <= 880) {
+            $(".main-content-headshot").css("height", "167px");
+        } else {
+            $(".main-content-headshot").css("height", "500px");
+        }
+    }
+
     // Initialize smooth-scroll.js
 
     smoothScroll.init({speed: 900, easing: 'easeInOutCubic'});
@@ -61,25 +79,6 @@ $(document).ready(function () {
     setInterval(function () {
         $post.toggleClass("hidden");
     }, 500);
-
-
-    // Resize elements of page to better fit smaller screens
-
-    window.addEventListener("resize", resize);
-    window.addEventListener("load", resize);
-
-    function resize() {
-        if (window.innerWidth <= 541) {
-            $(".sub-main-title").hide();
-        } else {
-            $(".sub-main-title").show();
-        }
-        if (window.innerWidth <= 880) {
-            $(".main-content-headshot").css("height", "167px");
-        } else {
-            $(".main-content-headshot").css("height", "500px");
-        }
-    }
 
     // Fade in fade elements with ScrollReveal
 
